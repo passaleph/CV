@@ -1,5 +1,6 @@
 @use "../node_modules/bootstrap/scss/bootstrap"
 with ($primary : #00f2ff,
     $secondary : #ff00f2,
-    $dark : #5abe0e
     );
+//je voulais mettre d'autre couleurs mais boostrap ne permet que de changer le secondary et primary 
+//Pour débloquer les autre ils font alller dans la config de boostrap mais ces pas conséillé

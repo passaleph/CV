@@ -1,10 +1,4 @@
 :root{
-   
-    --success: #198754;
-    --danger: #dc3545;
-    --warning: #ffc107;
-    --info: #0dcaf0;
-    --light: #f8f9fa;
     --dark: #0c0d0e;
     --quadrillage: rgba(76, 94, 144, 0.096) 1px;
     --bleu: #00f2ff;
@@ -118,7 +112,7 @@ body
 }
 
 .card-bleu-border {
-    border: 1px solid rgb(38, 73, 84);
+    border: 2px solid rgb(38, 73, 84) !important;
     transition: box-shadow 0.5s, border 0.9s;
 }
 
@@ -129,11 +123,28 @@ body
 
 
 .card-rose-border {
-    border: 1px solid rgb(88, 46, 92);
+    border: 2px solid rgb(88, 46, 92) !important;
     transition: box-shadow 0.5s, border 0.9s;
 }
 
 .card-rose-border:hover {
     box-shadow: var(--rose) 6px 0 20px 1px;
     border: 1px solid var(--rose);
+}
+
+
+.card-body-bleu {
+    background-color: #00f2ff1d;
+}
+
+.card.card-fond {
+    background-color: #171a1be2;
+}
+
+.fond-bleu-faible {
+    background-color: #00f2ff1d;
+}
+
+.fond-rose-faible {
+    background-color: #8a22971d;
 }
