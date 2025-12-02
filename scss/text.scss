@@ -1,0 +1,8 @@
+@use "variables";
+
+.text-primary {
+    color: variables.$primay-color;
+}
+.text-secondary {
+    color: variables.$secondary-color;
+}

@@ -1,0 +1,139 @@
+:root{
+   
+    --success: #198754;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #0dcaf0;
+    --light: #f8f9fa;
+    --dark: #0c0d0e;
+    --quadrillage: rgba(76, 94, 144, 0.096) 1px;
+    --bleu: #00f2ff;
+    --rose: #ff00f2;
+}
+
+
+body
+{
+    background-color: var(--dark);
+    font-family: "Raleway", sans-serif;
+   
+}
+
+#main {
+    background-image:
+        linear-gradient(var(--quadrillage), transparent 1px),
+        linear-gradient(90deg, var(--quadrillage), transparent 1px);
+    background-size: 30px 30px;
+    padding: 0;
+}
+
+.neon-bleu{
+    color: var(--bleu);
+    text-shadow: var(--bleu) 1px 4px 20px;
+}
+
+.neon-rose{
+    color: var(--rose);
+    text-shadow: var(--rose) 1px 4px 20px;
+}
+
+.neon-bleu-border {
+    box-shadow: var(--bleu) 6px 0 20px;
+    border: 1px solid var(--bleu);
+}
+
+.neon-rose-border {
+    box-shadow: var(--rose) 6px 0 20px;
+    border: 1px solid var(--rose);
+}
+
+#code {
+    background-image:
+      linear-gradient(to top left, rgba(95, 24, 90, 0.6), rgba(0, 0, 0, 0.6)), /* dégradé semi-transparent */
+      url(../images/code.png); /* image de fond */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+#progress-bar-1 {
+    background-image:
+      linear-gradient(to right, rgba(11, 169, 242, 0.6), rgba(166, 14, 217, 0.6)); /* dégradé semi-transparent */
+    height: 100%;
+    width: 80%;
+}
+
+.progress-bar{
+    height: 10px;
+    border: 1px solid rgb(44, 124, 148);
+    border-radius: 10px;
+
+
+}
+
+
+.btn-info{
+    color: var(--bleu);
+    background-color: transparent;
+    border-radius: 5px;
+    border: var(--bleu) 2px solid;
+    transition: background-color 0.5s;
+}
+
+.btn-info:hover{
+
+    background-color: #00f2ff1d;
+
+}
+
+
+/* .rose-primary-button:hover- {
+    color: var(bleu);
+    text-shadow: var(--rose) 1px 0 20px;
+} */
+
+
+.bouton-custom {
+    color: rgb(87, 92, 92);
+     border: 2px solid rgb(87, 92, 92);
+}
+
+.bouton-custom:hover {
+    color: var(--bleu);
+    border: 2px solid #0dcaf0
+}
+
+
+
+.border-bottom-rose {
+    border-bottom: 2px solid var(--rose);
+}
+
+
+.border-bottom-bleu {
+    border-bottom: 2px solid var(--bleu);
+}
+
+.card-bleu-border {
+    border: 1px solid rgb(38, 73, 84);
+    transition: box-shadow 0.5s, border 0.9s;
+}
+
+.card-bleu-border:hover {
+    box-shadow: var(--bleu) 6px 0 20px 1px;
+    border: 1px solid var(--bleu);
+}
+
+
+.card-rose-border {
+    border: 1px solid rgb(88, 46, 92);
+    transition: box-shadow 0.5s, border 0.9s;
+}
+
+.card-rose-border:hover {
+    box-shadow: var(--rose) 6px 0 20px 1px;
+    border: 1px solid var(--rose);
+}
