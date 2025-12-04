@@ -22,15 +22,34 @@
 
     <div class="container-fluid" >
 
-        <nav class="navbar bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-primary bg-opacity-75">
             <div class="container">
-                <a class="navbar-brand" href="#"><span class="fw-bold neon-bleu">Gardette </span><span class="fw-medium neon-rose"> Luca</span></a>
-                <div class="fix-end ">
-                    <a class="navbar-brand mx-4 text-light" href="#">Accueil</a>
-                    <a class="navbar-brand mx-4 text-light" href="#">A propos</a>
-                    <a class="navbar-brand mx-4 text-light" href="#">Projects</a>
-                    <a class="navbar-brand mx-4 text-light " href="#">FAQ</a>
-                    <a class="navbar-brand mx-4 text-light" href="#">Contact</a>
+                <a class="navbar-brand" href="#">
+                    <span class="fw-bold neon-bleu">Gardette </span><span class="fw-medium neon-rose"> Luca</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -71,7 +90,7 @@
     </div>
         <section class=" container" id="a-propos">
             <div class="bg-sucess mb-5">
-                <h1 class="display-4 text-center ">L'homme <span class="border-bottom ">Derrière </span><span class="neon-bleu">Le Code</span></h1>
+                <h1 class="display-4 text-center ">L'homme <span class="border-bottom ">Derrière</span><span class="neon-bleu"> Le Code</span></h1>
                 <div class="row mt-5">
                     <div class="col-12 col-md-6">
                         <img src="./images/personnage.png" alt="une illustration de moi en néon" class="img-fluid w-100">
@@ -166,7 +185,7 @@
         
         <section class="container mt-5" id="contact">
             <h5 class="text-center text-secondary opacity-75">//Contact</h5>
-            <h1 class="text-center mb-5">Me<span class="neon-rose border-bottom-bleu"> Contacter</span></h1>
+            <h1 class="text-center mb-5">Me <span class="neon-rose border-bottom-bleu">Contacter</span></h1>
             <div class="row">
                 <div class="col-md-6 col-12">
                     <form action="/votre-script.php" method="POST">
@@ -209,7 +228,7 @@
             <div class="container">
                 <div class="row">
                 <!-- Section 1: Remerciment et contact -->
-                <div class="col-mb-4 col-12 mb-3">
+                <div class="col-md-4 col-12 mb-3">
                     <h5 class="neon-bleu">Gardette<span class="neon-rose"> Luca</span></h5>
                     <p>
                         Merci d’avoir pris le temps de visiter mon site. Si vous avez la moindre
@@ -218,7 +237,7 @@
                 </div>
 
                 <!-- Section 2: Navigation -->
-                <div class="col-mb-4 col-6 mb-3 text-center">
+                <div class="col-md-4 col-6 mb-3 text-center">
                     <h6 class="text-primary">Naviguer</h6>
                     <ul class="list-unstyled ">
                     <li class="mb-1">_Acceuil</li>
@@ -229,7 +248,7 @@
                 </div>
 
                 <!-- Section 3 Se connecter  -->
-                <div class="col-mb-4 col-6">
+                <div class="col-md-4 col-6">
                     <h6 class="text-primary">Se connecter</h6>
                     <ul class="list-unstyled d-flex">
                     <li><a href="https://github.com/passaleph/CV" target="_blank"><i class="fab fa-github fa-2x text-white me-3"></i></a></li>
