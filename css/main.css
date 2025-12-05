@@ -57,7 +57,21 @@ body
     background-image:
       linear-gradient(to right, rgba(11, 169, 242, 0.6), rgba(166, 14, 217, 0.6)); /* dégradé semi-transparent */
     height: 100%;
-    width: 80%;
+    width: 90%;
+}
+
+#progress-bar-2 {
+    background-image:
+      linear-gradient(to right, rgba(11, 169, 242, 0.6), rgba(166, 14, 217, 0.6)); /* dégradé semi-transparent */
+    height: 100%;
+    width: 75%;
+}
+
+#progress-bar-3 {
+    background-image:
+      linear-gradient(to right, rgba(11, 169, 242, 0.6), rgba(166, 14, 217, 0.6)); /* dégradé semi-transparent */
+    height: 100%;
+    width: 65%;
 }
 
 .progress-bar{
