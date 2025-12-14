@@ -166,3 +166,8 @@ body
 .fond-main {
     background-color: #070c10d9;
 }
+
+
+.navbar .nav-link.active {
+  color: var(--bs-primary) !important;
+}

@@ -18,7 +18,7 @@
 
 
 </head>
-<body class="text-light" style="background-color: var(--dark);" id="main">
+<body class="text-light" style="background-color: var(--dark);" id="main" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80" >
 
 
     <div class="container-fluid" >
@@ -36,16 +36,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Accueil</a>
+                                <a class="nav-link text-white" href="#accueil">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">A propos</a>
+                                <a class="nav-link text-white" href="#a-propos">A propos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link text-white" href="#projets">Projects</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item fond-rose-faible border border-secondary rounded-2 ">
+                                <a class="nav-link text-white " href="#contact">Contact </a>
                             </li>
                         </ul>
                     </div>
@@ -53,8 +53,8 @@
             </nav>
         </header>
 
-        <div class="container d-flex  align-items-center vh-100">
-            <div class="row">
+        <div class="container d-flex  align-items-center vh-100"id = "accueil">
+            <div class="row" >
                 <div class="col-lg-6 col-12 fw-bold mb-5">
                     
                     <p href="couton mes projets" class="border-info rounded-5 btn btn-outline-info neon-bleu p-1">Recherche d'une alternance</p>
@@ -74,7 +74,7 @@
 
                 <div class="col-lg-6 col-12">
                     <div class="neon-bleu-border d-flex justify-content-center align-items-center flex-column" id="code">
-                        <img src="./images/billgates.png" alt="luca" class="img-fluid rounded-circle w-25 ">
+                        <img src="./images/luca.png" alt="luca" class="img-fluid rounded-circle w-25 ">
                         <div class="mt-2">
                             <h3 class="neon-bleu">Luca. Gardette</h3>
                             <p class="">Apprentie developpeur</p>
@@ -86,10 +86,10 @@
         
     <!-- ces la div qui pemet de continuer de mettre le grillage -->
     </div>
-        <section class=" container" id="a-propos">
+        <section class="container" id="a-propos">
             <div class="bg-sucess mb-5">
                 <h5 class="text-center text-primary opacity-75">//A propos</h5>
-                <h1 class="display-4 text-center ">A Propos <span class="border-bottom border-secondary border-4 pb-2 d-inline-block neon-bleu">De</span><span class="neon-bleu"> Moi</span></h1>
+                <h1 class="display-4 text-center ">A Propos <span class="border-bottom border-secondary border-4 pb-3 d-inline-block neon-bleu">De</span><span class="neon-bleu"> Moi</span></h1>
                 <div class="row mt-5">
                     <div class="col-12 col-md-6">
                         <img src="./images/personnage_fond.png" alt="une illustration de moi en néon" class="img-fluid w-100">
@@ -142,10 +142,10 @@
                 </div>    
             </div>   
         </section> 
-        <section class="container">
+        <section class="container" id="projets">
             <div class="text-center mb-5">
                 <h5 class="text-center text-secondary opacity-75">//Projects</h5>
-                <h1>Mes <span class="neon-rose border-bottom-bleu border-4 pb-2 d-inline-block  ">projets</span></h1>
+                <h1>Mes <span class="neon-rose border-bottom-bleu border-4 pb-3 d-inline-block  ">projets</span></h1>
                 <p>Découvez mes projets les plus passionnants que j'ai pu réaliser en autodidacte et au sein de mon école.</p>
             </div>
             <div class = "row ">
@@ -186,7 +186,7 @@
         
         <section class="container mt-5" id="contact">
             <h5 class="text-center text-secondary opacity-75">//Contact</h5>
-            <h1 class="text-center mb-5">Me <span class="neon-rose border-bottom-bleu border-4 pb-2 d-inline-block ">Contacter</span></h1>
+            <h1 class="text-center mb-5">Me <span class="neon-rose border-bottom-bleu border-4 pb-3 d-inline-block ">Contacter</span></h1>
             <div class="row">
                 <div class="col-md-6 col-12">
                     <form action="/votre-script.php" method="POST">
@@ -274,6 +274,6 @@
      
 
     <script src="/js/main.js"> </script>
-    <script>src="./node_modules/bootstrap/dist/js/bootstrap.min.js"</script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
