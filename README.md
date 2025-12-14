@@ -53,13 +53,13 @@ Le design s’inspire d’une **esthétique cyberpunk**, avec des **effets néon
 
 ## 🚀 Lancer le projet
 
-##1. Cloner le dépôt :
-##```bash
-git clone https://github.com/passaleph/CV.git
+1. Cloner le dépôt :
+## ```bash
+ git clone https://github.com/passaleph/CV.git
 
 
 # 💻 Portfolio – Cyberpunk Neon Theme
-##En Presentation
+En Presentation
 
 ## 📖 Overview
 
