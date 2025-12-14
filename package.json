@@ -1,5 +1,12 @@
 {
+
+
   "dependencies": {
     "bootstrap": "^5.3.8"
+  },
+
+    "scripts": {
+    "build": "copy node_modules\\bootstrap\\dist\\css\\bootstrap.min.css assets\\css\\bootstrap.min.css && copy node_modules\\bootstrap\\dist\\js\\bootstrap.bundle.min.js assets\\js\\bootstrap.bundle.min.js"
   }
+
 }
