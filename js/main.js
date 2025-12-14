@@ -13,3 +13,12 @@ setInterval(() => {
         index = 0;
     }
 }, 400); // 1000 = 1 seconde
+
+const btn = document.getElementById('liveToastBtn');
+const toastEl = document.getElementById('liveToast');
+
+btn.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastEl);
+    toast.show();
+});
+
