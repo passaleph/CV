@@ -1,0 +1,45 @@
+.runner {
+    position: relative;
+    top : -130px;   
+    
+
+    width: 128px;
+    height: 128px;
+    background-image: url("../Samurai/Run.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: auto 128px; 
+
+    /* On ajoute l'animation "move" qui dure 5 secondes */
+    animation: 
+        run 0.8s steps(8) infinite, 
+        move 4s linear infinite;
+    
+    position: absolute; /* Indispensable pour que "left" fonctionne */
+}
+
+/* Animation 1 : Le mouvement des jambes (Sprite Sheet) */
+@keyframes run {
+    from { background-position: 0 0; }
+    to { background-position: -1024px 0; }
+}
+
+
+:root {
+    --move-distance: 300px; /* Valeur par défaut (PC) */
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --move-distance: 200px; /* Valeur pour mobile */
+    }
+}
+
+@keyframes move {
+    from { left: -30px; }
+    to { left: var(--move-distance); } 
+}
+
+.stop-animation {
+    animation-play-state: paused !important;
+}

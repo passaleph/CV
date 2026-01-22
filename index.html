@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./character/css-character/main.css">
 
 
 </head>
@@ -61,13 +62,13 @@
                     <h1 class="display-3 mb-0" > FAIRE DU CODE</h1>
                     <h3 class="neon-bleu display-4 mb-0">POUR CONNECTER</h3>
                     <h3 class="neon-rose display-4 mb-3 ">LE MONDE</h3>
-                    <p>Transforming visions into immersive web experiences with cutting-edge technology and futuristic design</p>
+                    <p>Concevoir des interfaces web percutantes en alliant expertise technique et vision créative au service de projets ambitieux.</p>
                     <div class="row mt-5">
                         <div class="col-3 rounded hover text-center" style="background-color:var(--rose) ;">
-                            <a href="bouton contactez" class="bg-sucess rounded btn text-white">Me contactez</a>
+                            <a href="#contact" class="bg-sucess rounded btn text-white">Me contactez</a>
                         </div>
                         <div class="col-9">
-                            <a href="couton mes projets" class="border-info rounded btn btn-outline-info neon-bleu">Voir mes projets</a>
+                            <a href="#projets" class="border-info rounded btn btn-outline-info neon-bleu">Voir mes projets</a>
                         </div>
                     </div>
                 </div>
@@ -96,8 +97,8 @@
                     </div> 
                     <div class="col-12 col-md-6 mt-5">
                         <h2 class="neon-rose">Développeur web <span id ="Span&"class="">&</span>  <span  class="neon-bleu">jeux vidéo</span></h2>
-                        <p class="mt-4">Je suis Mark Thomson, développeur full-stack senior spécialisé dans la création d’expériences numériques immersives qui fusionnent technologie de pointe et design futuriste. Grâce à une expertise couvrant plusieurs environnements techniques et une compréhension approfondie à la fois de l’esthétique front-end et de l’architecture back-end, je conçois des solutions qui dépassent les limites conventionnelles.
-                        <p class="mt-4">Après avoir fondé deux startups à succès et collaboré avec des leaders de l’industrie comme Tesla et Neuralink, je me consacre désormais à transformer des idées ambitieuses en réalité grâce au code, à l’innovation et à une quête constante d’excellence technologique.</p>
+                        <p class="mt-4">Je suis Luca Gardette, futur développeur passionné de 19 ans, actuellement en deuxième année d'informatique et dédié à la conception de solutions numériques innovantes. Fort d'un parcours académique rigoureux et d'une curiosité technologique sans faille, je forge mes compétences pour répondre aux défis complexes de l'ingénierie logicielle et du développement moderne..
+                        <p class="mt-4">Grâce à une expérience concrète en stage sur divers projets web et une maîtrise autodidacte de Python, j'allie aujourd'hui expertise en développement et solides connaissances en réseaux. Désormais prêt à relever de nouveaux défis partout en France, je recherche une alternance pour l'année 2026-2027 afin d'apporter ma rigueur et ma vision créative au service de vos ambitions.</p>
 
                         <div class="w-100 d-flex mt-4">
                             <span class="neon-bleu">Développement web</span>
@@ -148,16 +149,19 @@
                 <h1>Mes <span class="neon-rose border-bottom-bleu border-4 pb-3 d-inline-block  ">projets</span></h1>
                 <p>Découvez mes projets les plus passionnants que j'ai pu réaliser en autodidacte et au sein de mon école.</p>
             </div>
-            <div class = "row ">
-                <div class="col-12 col-lg-4 mb-3">
+
+            <div class = "row">    
+                
+                <div class="col-12 col-lg-4 mb-3">       
                     <div class="card card-fond w-100 card-bleu-border" style="width: 18rem;">
                         <div class="card-body text-white">
+                            <div class="runner " id="samurai"></div>  
                             <i class="card-title fas fa-gamepad rounded-circle p-3 fond-bleu-faible"></i>
                             <h5 class="card-title text-primary mb-3">Projet Simon</h5>
                             <p class="card-text ">Dans le cadre de mon projet de fin de première année, j’ai réalisé un jeu Simon pour lequel j’ai conçu l’ensemble du développement : programmation, modélisation et impression 3D, partie électronique, design global, maquettes ainsi que le plan marketing simple.</p>
                             <a href="#" class="btn btn-primary">Voir sur GitHub</a>
                         </div>
-                    </div>
+                    </div>    
                 </div>
                 <div class="col-12 col-lg-4 mb-3">
                         <div class="card card-fond w-100 card-rose-border" style="width: 18rem;">
@@ -165,7 +169,7 @@
                                 <i class="card-title fas fa-hand-holding-heart rounded-circle p-3 fond-rose-faible"></i>
                                 <h5 class="card-title text-secondary mb-3">Projet humaitaire</h5>
                                 <p class="card-text ">À la fin de mon année de terminale, je suis parti avec quatre élèves de mon lycée au Sénégal pour participer à la création de logements au sein d’une école située à Warang, appelée le Centre Ozanam. Ce projet a été réalisé en partenariat avec l’association Les Mains Ouvertes.</p>
-                                <a href="#" class="btn btn-secondary">Voir sur GitHub</a>
+                                <a href="https://www.mains-ouvertes.com/" target="_blank" class="btn btn-secondary">Voir l'association</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +193,7 @@
             <h1 class="text-center mb-5">Me <span class="neon-rose border-bottom-bleu border-4 pb-3 d-inline-block ">Contacter</span></h1>
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <form action="/votre-script.php" method="POST">
+                    <form action="" method="POST">
                         <!-- Nom -->
                         <div class="mb-3">
                             <label for="nom" class="form-label text-primary">Nom</label>
@@ -209,7 +213,9 @@
                         </div>
 
                         <!-- Bouton Envoyer -->
-                        <button type="submit" class="btn btn-secondary w-100 rounded text-white" id="liveToastBtn">Envoyer le message</button>
+                       <button type="button" class="btn btn-secondary w-100" id="liveToastBtn" onclick="const toast = new bootstrap.Toast(document.getElementById('liveToast')); toast.show();">
+                            Envoyer le message
+                      </button>
 
                         <div class="toast-container position-fixed bottom-0 end-0 p-3">
                             <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -236,6 +242,7 @@
                 </div>
             </div>
         </section>
+
 
 
        <footer class="py-5 mt-5 fond-main border-top  border-info">
@@ -287,6 +294,7 @@
      
 
     <script src="/js/main.js"> </script>
+    <script src="/character/css-character/main.js"> </script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
